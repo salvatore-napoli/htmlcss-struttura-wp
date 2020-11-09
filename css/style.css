@@ -11,7 +11,7 @@
 /* end Utility Class */
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -45,7 +45,6 @@ header {
 
 .main-container .main-content .content {
   background-color: #800080;
-  height: 100%;
 }
 
 .main-container > .side-dx {
@@ -65,7 +64,7 @@ header {
   padding-bottom: 15px;
 }
 
-.main-container .side-dx .right-content .content {
+.main-container .main-content .content, .main-container .side-dx .right-content .content {
   height: 100%;
 }
 
