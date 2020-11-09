@@ -13,3 +13,19 @@ header {
   background-color: #FFFF00;
   height: 150px;
 }
+
+.main-container {
+  width: 100%;
+  height: 500px;
+}
+
+section:first-child {
+  width: 25%;
+  height: 60%;
+}
+
+.side-sx {
+  background-color: #D391E3;
+  width: 100%;
+  height: 100%;
+}
