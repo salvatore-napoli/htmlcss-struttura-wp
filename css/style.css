@@ -23,6 +23,7 @@ header {
 .main-container {
   width: 100%;
   height: 500px;
+  padding: 10px 0;
 }
 
 .main-container::after {
@@ -37,8 +38,13 @@ header {
 }
 
 .main-container > .main-content {
-  background-color: #800080;
   width: 50%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.main-container .main-content .content {
+  background-color: #800080;
   height: 100%;
 }
 
@@ -47,13 +53,20 @@ header {
   height: 95%;
 }
 
-.main-container > .side-sx, .main-container > .side-dx {
+.main-container > .side-sx, .main-container .side-dx .right-content .content {
   background-color: #D391E3;
 }
 
-.main-container > .side-dx div {
-  width: 100%;
+.main-container .side-dx .right-content:first-child, .main-container .side-dx .right-content:nth-child(2) {
   height: 50%;
+}
+
+.main-container .side-dx .right-content:first-child {
+  padding-bottom: 15px;
+}
+
+.main-container .side-dx .right-content .content {
+  height: 100%;
 }
 
 footer {
